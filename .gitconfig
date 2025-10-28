@@ -1,0 +1,10 @@
+; [url "https://gitcode.com/"]
+; 	insteadOf = https://github.com/
+[user]
+	name = W-Rn
+	email = 502036389@qq.com
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+
+; [url "git@gitcode.com:"]
+; 	insteadOf = https://gitcode.com/
