@@ -1,0 +1,35 @@
+import = [
+  "~/.config/alacritty/themes/catppuccin_mocha.toml"
+]
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 7.5
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "Hack Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "Hack Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+
+[keyboard]
+bindings = [
+  { key = "Slash", mods = "Control", chars = "\u001f" }
+]
+[window]
+dimensions = { columns = 80, lines = 24 }
+padding = { x = 4, y = 0 }
+blur = true
+decorations = "Full"
